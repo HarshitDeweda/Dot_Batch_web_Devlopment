@@ -1,0 +1,11 @@
+Q.1 Div Tag
+Ans->https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+
+Q.2 Description List
+Ans->https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+
+Q.3 Html tag use attribute
+Ans->yes
+
+Q.4 What Happens when we close an empty tag
+Ans->invaild Syntax
