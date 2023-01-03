@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Table</title>
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+        }
+        table
+        {
+            text-align: center;
+        }
+        .yellow
+        {
+            background-color: yellow;
+        }
+        .voilet
+        {
+            background-color: blueviolet;
+        }
+        .green
+        {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+       <table>
+         <thead>
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="4">Seminar</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Schedule</th>
+                    <th rowspan="2">Topic</th>
+                </tr>
+                <tr>
+                    <th>begin</th>
+                    <th>end</th>
+                </tr>
+         </thead>
+         <tbody>
+              <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2" class="yellow">8:00 a.m.</td>
+                <td rowspan="2" class="voilet">5:00 p.m.</td>
+                <td>Introduction to xml</td>
+              </tr>
+              <tr>
+                <td>Validity and Relax NG</td>
+              </tr>
+              <tr>
+                <td rowspan="3">Tueshday</td>
+                <td class="yellow">8:00 a.m.</td>
+                <td class="yellow">11:00 a.m.</td>
+                <td >Xpath</td>
+              </tr>
+              <tr>
+                <td class="yellow">11:00 a.m.</td>
+                <td class="green">2:00 p.m.</td>
+                <td rowspan="2">XSL Transformations</td>
+              </tr>
+              <tr>
+                <td class="green">2:00 p.m.</td>
+                <td class="voilet">5:00 p.m.</td>
+              </tr>
+         </tbody>
+         <tfoot>
+            <tr>
+                <td>Wednesday</td>
+                <td class="yellow">8:00 a.m.</td>
+                <td class="green">12:00 p.m.</td>
+                <td>XSL Formating Objects</td>
+            </tr>
+         </tfoot>
+       </table>
+</body>
+</html>

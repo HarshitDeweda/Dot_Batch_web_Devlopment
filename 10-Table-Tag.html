@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag </title>
+
+    <style>
+       table,tr,th,td
+       {
+          border: 1px solid black;
+           border-collapse: collapse;  /* When Use border-collapse table border are collapse  */
+       }
+       th, td 
+        {
+          padding-top: 10px;
+          padding-bottom: 20px;
+          padding-left: 30px;
+          padding-right: 40px;
+        }
+
+    </style>
+   
+</head>
+<body>
+       <!-- Creating a Table Use Table Tag -->
+       <table>
+        <caption>Marks Table</caption>    <!-- When caption tag use the table caption and table name -->
+        <thead> <!-- When thead tag use defind the table heading -->
+          <tr>  <!-- creating a tble row use tr tag -->
+            <th>Subject</th>    <!-- creating a Table handing use th tag -->
+            <th>Marks</th>
+          </tr>
+        </thead>
+        <tbody>  <!-- when tbody tag use defind the table data -->
+          <tr>
+             <td>English</td>
+             <td>90</td>
+          </tr>
+
+          <tr>
+            <td>Hindi</td>
+            <td>90</td>
+         </tr>
+        </tbody>
+        <tfoot> <!-- The <tfoot> HTML element defines a set of rows summarizing the columns of the table. -->
+         <tr>
+            <td>Total</td>
+            <td>180</td>
+         </tr>
+        </tfoot>
+       </table>
+</body>
+</html>

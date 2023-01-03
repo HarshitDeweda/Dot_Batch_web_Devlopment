@@ -1,0 +1,38 @@
+Q.1 Why there is only h1 to h6 not,h7and h8 etc.
+Ans:->H7,h8 and h9.... tags is not valid in html,The h6 is already very small, h7 h8 or h9 would be unreadable.
+
+Q.2 How Change Color of hr line
+Ans:-> <hr color="red"> color attribute use change hr line color and background-color use
+
+Q.3 Give By Color as line have width not full line?.
+Ans:->When we use width attribute and defind also your need acroding
+
+Q.4 Quation And Citation Tags[blockquate,q,cite,address,abbr]
+Ans:->
+blockquate :- The HTML <blockquote> element defines a section that is quoted from another source.
+
+q :- The HTML <q> tag defines a short quotation.
+
+cite:-The HTML <cite> tag defines the title of a creative work 
+       (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+address :-The <address> HTML element indicates that the enclosed HTML provides contact information for a person or people,
+          or for an organization
+
+abbr:- The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+
+bdo:-BDO stands for Bi-Directional Override.
+
+The HTML <bdo> tag is used to override the current text direction:
+
+Q.5 How To Add a Favicon
+Ans:->When we use link tag after title tag 
+ex:-    <link rel="icon" href="/lecture-2/images/icons8-globe-16.png">
+
+Q.6 Make A web Page (https://codehelp-linus-torvalds-tribute.netlify.app/)
+Ans:-16_Make_A_Webpage(H6).html
+
+Q.7Make A Table 
+Ans;- 17_Make_A_Table(H7).html
+
+Q.8 Make A_ From(https://codehelp-html-contact-form.netlify.app/)
+Ans:-18_Make_A_Form(H8)
